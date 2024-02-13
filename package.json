@@ -1,0 +1,17 @@
+{
+	"name": "myrepo",
+	"version": "0.0.1",
+	"description": "Auto generate components, maybe based on personal ones",
+	"main": "index.js",
+	"scripts": {
+		"dev": "npx ts-node src/cli.ts",
+		"build": "tsc"
+	},
+	"bin": "dist/cli.js",
+	"author": "Talon (https://github.com/talon2295)",
+	"license": "MIT",
+	"devDependencies": {
+		"@types/node": "^20.11.17",
+		"typescript": "^5.3.3"
+	}
+}
