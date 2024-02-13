@@ -1,5 +1,5 @@
 {
-	"name": "myrepo",
+	"name": "my-push",
 	"version": "0.0.1",
 	"description": "Auto generate components, maybe based on personal ones",
 	"main": "index.js",
@@ -9,9 +9,14 @@
 	},
 	"bin": "dist/cli.js",
 	"author": "Talon (https://github.com/talon2295)",
+	"repository": "https://github.com/talon2295/my-push",
 	"license": "MIT",
 	"devDependencies": {
+		"@types/bunyan": "^1.8.11",
 		"@types/node": "^20.11.17",
 		"typescript": "^5.3.3"
+	},
+	"dependencies": {
+		"bunyan": "^1.8.15"
 	}
 }
